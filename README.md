@@ -67,5 +67,5 @@ command_str = "F+F+F+F"
 
 ## 👨‍💻 Author  
 
-Developed by Behroz Musharraf as part of **CS 332: Object-Oriented Programming** (University of Karachi).  
+Developed by Behroz Musharraf as part of **CS-352: Object-Oriented Programming** (University of Karachi).  
 
