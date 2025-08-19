@@ -17,7 +17,7 @@ class TKpanel(tk.Canvas):
         print(f"Line from ({P.get_x}, {P.get_y}) to ({Q.get_x}, {Q.get_y})")
         self.draw()  
 
-#QQ??--------------------------------------------------------------------------------------------------------
+
     def draw(self):
         
         self.delete("all")  # Clear previous drawings

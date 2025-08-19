@@ -23,10 +23,10 @@ class Pen:
         # self.move_to(new_x,new_y)
         self._cp = new_point
 
-    def turn_left(self,angle=90): #-----------QQ: but why is there formula for forward and not for left or right ??--------
+    def turn_left(self,angle=90): #here the command is comming from the Turtle class left (turns the pens to -90)
         self._angle-=angle
 
-    def turn_right(self,angle=90):
+    def turn_right(self,angle=90): #here the command is comming from the Turtle class right (turns the pens to +90)
         self._angle+=angle
 
 

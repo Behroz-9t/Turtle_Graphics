@@ -31,19 +31,6 @@ class Point:
             raise TypeError("Can only add point to point type!")
         
    
-   
-   
-    #   -----------QUESTION-----------   __add__ function alone adds two objects with point type why add another function (add) before __add__ and then return it in __add__ dunder func??
-    
-    # def add(self, other):
-    #     """Add two Point objects and return a new one"""
-    #     if isinstance(other, Point):
-    #         return Point(self._x + other._x, self._y + other._y)
-    #     raise TypeError("Can only add Point to Point")
-
-    # # === Operator overloading for + ===
-    # def __add__(self, other):
-    #     return self.add(other)
 
     def __str__(self):
         return (f"(x:{self._x} , y:{self._y})")
