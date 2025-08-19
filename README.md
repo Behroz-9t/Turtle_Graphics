@@ -38,7 +38,7 @@ It is inspired by **Logo Turtle Graphics** and allows drawing patterns using sim
 
 ---
 
-### 3. Example Input 
+### Example Input 
 
 ```python
 command_str = "F+F+F+F"
