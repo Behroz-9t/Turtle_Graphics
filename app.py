@@ -19,9 +19,9 @@ class App:
 
         #-- Turtle engine --
 
-        str_comm="+FF-F-F-F+F+F"
-        # str_comm="F+F-F" 
-        # str_comm="F+F+F+F"
+        # str_comm="+FF-F-F-F+F+F"  #--> Custom command
+        # str_comm="F+F+F+F"        #---> square   
+        str_comm="F-F+F-F"          #---> Zig Zag
         
         pen = Pen(self.canvas)
         turtle = Turtle(pen)
